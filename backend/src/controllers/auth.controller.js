@@ -37,8 +37,8 @@ export const signup = async (req, res) => {
     });
 
     if (newUser) {
-      // before CR:
-      // generateToken(newUser._id, res);
+      // before CR(CodeRabbit):
+      // generateToken(newUse r._id, res);
       // await newUser.save();
 
       // after CR:
